@@ -25,7 +25,7 @@ public class main {
             i++;
         }
 
-        for (int j=0; j<etalase; j++){
+        for (int j=0; j<etalase.length; j++){
             System.out.println("Barang ke-" + (j+1));
             etalase[j].showinfo();
         }

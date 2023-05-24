@@ -1,0 +1,26 @@
+package com.Zidhan.PBO.Pertemuan6;
+
+public class TryCatch {
+    //membuat method main
+    public static void main(String[] args) {
+        //membuat array
+        int[] angka = {
+                1, 2, 3, 4, 5
+        };
+        try {
+
+            //memanggil array berdasarkan index
+            System.out.println(
+                    angka[6]
+            );
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println(
+                    "Index yang anda masukkan melebihi batas"
+            );
+
+            System.out.println(
+                    "Akhir dari program"
+            );
+        }
+    }
+}
